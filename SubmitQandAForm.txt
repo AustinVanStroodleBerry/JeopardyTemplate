@@ -1,0 +1,14 @@
+Private Sub CommandButton1_Click()
+ActivePresentation.Slides(1).Shapes("Delete_SetQuestionsAnswers1").Delete
+ActivePresentation.Slides(2).Shapes("Question1").TextFrame.TextRange.Text = SetQuestion1
+ActivePresentation.Slides(2).Shapes("Answer1").TextFrame.TextRange.Text = SetAnswer1
+ActivePresentation.Slides(3).Shapes("Question2").TextFrame.TextRange.Text = SetQuestion2
+ActivePresentation.Slides(3).Shapes("Answer2").TextFrame.TextRange.Text = SetAnswer2
+ActivePresentation.Slides(4).Shapes("Question3").TextFrame.TextRange.Text = SetQuestion3
+ActivePresentation.Slides(4).Shapes("Answer3").TextFrame.TextRange.Text = SetAnswer3
+ActivePresentation.Slides(5).Shapes("Question4").TextFrame.TextRange.Text = SetQuestion4
+ActivePresentation.Slides(5).Shapes("Answer4").TextFrame.TextRange.Text = SetAnswer4
+ActivePresentation.Slides(6).Shapes("Question5").TextFrame.TextRange.Text = SetQuestion5
+ActivePresentation.Slides(6).Shapes("Answer5").TextFrame.TextRange.Text = SetAnswer5
+Setc1.Hide
+End Sub
